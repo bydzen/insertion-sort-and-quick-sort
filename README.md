@@ -11,7 +11,7 @@ Sultan Kautsar - *1303194010* - [Sultan Kautsar](https://github.com/bydzen)<br>
 Arga Bimantara - *130319????* - [Arga Bimantara](https://github.com/#)
 
 <p align="center">
-  <img weight="400px" height="400px" src="https://github.com/bydzen/TubesMultiLinklist_ASD_DataBerobat/blob/master/Data%20Berobat/img/lottie1.gif">
+  <img weight="400px" height="400px" src="https://github.com/bydzen/TubesMultiLinklist_ASD_DataBerobat/blob/master/Data%20Berobat/img/lottie2.gif">
 </p>
 
 ## Getting Started
@@ -102,7 +102,7 @@ We use [GitHubDesktop](https://desktop.github.com/) for versioning.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/bydzen/TubesMultiLinklist_ASD_DataBerobat/blob/master/LICENSE) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/bydzen/insertion-sort-and-quick-sort/blob/main/LICENSE) file for details
 
 ## Acknowledgments
 
