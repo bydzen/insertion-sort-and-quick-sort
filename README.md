@@ -4,6 +4,7 @@
 
 This project was created to fulfill a large assignment in an Algorithm Complexity Analysis course. Where is our job to do analyst Insertion Sort and Quick Sort.
 - [x] insertion-sort.cpp: File editing in Code::Blocks.
+- [x] quick-sort.cpp: File editing in Code::Blocks.
 
 ## Developed By
 
