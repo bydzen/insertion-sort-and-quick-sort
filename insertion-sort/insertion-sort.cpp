@@ -29,7 +29,9 @@ void insertionSort(int arr[], int n) {
 
 int main() {
     int n, i, age;
+    char yn;
 
+    YN:
     /* greeting author identity and purpose the program */
     cout << "-->> Program Age Insertion Sort <<--\n\n\n";
     cout << "Program Name       : Age Insertion Sort" << endl;
@@ -38,6 +40,17 @@ int main() {
     cout << "ID Creator         : 1303194010" << endl;
     cout << "Description        : Sorting with Insertion Sort for Customer Age" << endl << endl;
 
+    cout << "Random input (y/n)?: ";
+    cin >> yn;
+
+    cout << endl;
+
+    if (yn != 'y' && yn != 'n' && yn != 'Y' && yn != 'N') {
+        system("clear");
+        goto YN;
+    };
+
+    INN:
     /* size of array */
     cout << "Input array size: ";
     cin >> n;
@@ -46,20 +59,26 @@ int main() {
 
     cout << endl;
 
-    /* input the array */
-    cout << "Array: [";
-    for (i = 0; i < n; i++) {
-        age = rand() % 45 + 15;
-        cout << age << " ";
-        arr[i] = age;
+    if (yn == 'y' || yn == 'Y') {
+       cout << "Random array: [ ";
+        for (i = 0; i < n; i++) {
+            age = rand() % 45 + 15;
+            cout << age << " ";
+            arr[i] = age;
+        };
+        cout << "]" << endl;
+    } else if (yn == 'n' || yn == 'N') {
+        for (i = 0; i < n; i++) {
+            cout << "Element [" << i << "]: ";
+            cin >> age;
+            arr[i] = age;
+        };
     };
 
-    cout << "]";
-
-    cout << endl << endl;
+    cout << endl;
 
     /* print unsorted array */
-    cout << "Unsorted array: \n[";
+    cout << "Unsorted array: \n[ ";
     for (i = 0; i < n; i++) {
         cout << arr[i] << " ";
     };
@@ -72,7 +91,7 @@ int main() {
     cout << endl << endl;
 
     /* print sorted array */
-    cout << "Sorted array: \n[";
+    cout << "Sorted array: \n[ ";
     for (i = 0; i < n; i++) {
         cout << arr[i] << " ";
     };
