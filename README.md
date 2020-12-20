@@ -9,7 +9,7 @@ This project was created to fulfill a large assignment in an Algorithm Complexit
 ## Developed By
 
 Sultan Kautsar - *1303194010* - [Sultan Kautsar](https://github.com/bydzen)<br>
-Arga Bimantara - *130319????* - [Arga Bimantara](https://github.com/#)
+Arga Bimantara - *1303194072* - [Arga Bimantara](https://github.com/argabima)
 
 <p align="center">
   <img weight="400px" height="400px" src="https://github.com/bydzen/TubesMultiLinklist_ASD_DataBerobat/blob/master/Data%20Berobat/img/lottie2.gif">
@@ -99,7 +99,7 @@ We use [GitHubDesktop](https://desktop.github.com/) for versioning.
 ## Authors
 
 * **Sultan Kautsar** - *1303194010* - [Sultan Kautsar](https://github.com/bydzen)
-* **Arga Bimantara** - *130319????* - [Arga Bimantara](https://github.com/#)
+* **Arga Bimantara** - *1303194072* - [Arga Bimantara](https://github.com/argabima)
 
 ## License
 
