@@ -119,7 +119,8 @@ if __name__ == "__main__":
     # sorting method (algorithm).
     N = int(input("Enter number of integers: "))
     method_msg = "Enter sorting method:\n(b)ubble\n(i)nsertion\n(m)erge \
-        \n(q)uick\n(s)election\n"
+        \n(q)uick\n(s)election\n" \
+    "Input 'b' or 'i' or 'm' or 'q' or 's' :"
     method = input(method_msg)
 
     # Build and randomly shuffle list of integers.
