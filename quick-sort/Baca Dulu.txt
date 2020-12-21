@@ -1,5 +1,0 @@
-Nama Arga Bimantara
-NIM 1303194072
-
-File implementasi program algoritma quicksort dalam bentuk C++
-Sedangkan file yang menunjukkan proses visualisasi program dalam bentuk file python di folder File Visual
